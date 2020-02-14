@@ -116,7 +116,12 @@ body{
         height: 580px;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px){
+@media only screen and (min-height: 570px) and (max-width: 1024px) and (max-height: 1366px){
+    body{
+        height: 1366px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-height: 570px){
     body{                
         height: 569px;
     }
@@ -142,7 +147,7 @@ body{
         height: 50px;
     }
 }
-@media only screen and (min-width: 425px) and (max-height: 570px){
+@media only screen and (min-width: 414px) and (max-height: 570px){
     body{        
         background-image: url('../images/medium_image768.jpg');        
         height: 569px;
@@ -167,20 +172,37 @@ body{
         height: 50px;
     }
 }
+
 @media only screen and (min-width: 375px) and (max-width: 425px){
     .bojack_young{    
         width: 76px;
         height: 95px;
     }
 }
-@media only screen and (max-width: 375px) and (max-height: 812px) and (min-height: 570px){
+@media only screen and (min-width: 414px) and (max-width: 425px){
+    .bojack_young{    
+        width: 76px;
+        height: 95px;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 414px){
+    body{        
+        height: 736px;        
+    }
+}
+@media only screen and (max-width: 375px) and (max-height: 812px) and (min-height: 667px){
     body{        
         height: 812px;        
     }    
 }
-@media only screen and (min-width: 320px) and (max-height: 570px){
+@media only screen and (max-width: 375px) and (max-height: 667px) and (min-height: 570px){
+    body{        
+        height: 667px;        
+    }    
+}
+@media only screen and (min-width: 360px) and (max-height: 570px){
     body{
-        height: 569px;
+        height: 568px;
     }
     .points_int{
         width: 57%;
@@ -202,9 +224,37 @@ body{
         font-size: 15px;
     }
 }
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 360px) and (min-width: 320px){
+    body{
+        height: 640px;
+    }
     .bojack_young{    
         width: 68px;
         height: 85px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .bojack_kid{    
+        width: 40px;
+        height: 80px;
+    }
+    body{
+        height: 568px;
+    }
+    .lost{
+        height: 430px;
+    }
+    .lost_int{        
+        height: 91px;
+        width: 220px;
+        border-radius: 28px;
+    }
+    #image{
+        width: 183px;
+        height: 50px;
+    }
+    #mobile_finish,
+    #mobile_finish2{
+        font-size: 15px;
     }
 }

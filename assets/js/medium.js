@@ -79,7 +79,7 @@ function restart(x){
     }
 }
 function restart_mobile(){
-    window.location.href = "easy.html";
+    window.location.href = "medium.html";
 }
 function menu(){
     window.location.href ="../index.html";
