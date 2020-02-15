@@ -5,8 +5,8 @@ function bojack(){
     newx = window.innerWidth;
     newy = window.innerHeight;    
 
-    var x = Math.floor(Math.random()* (newx - 100));
-    var y = Math.floor(Math.random() * (newy - 120));
+    var x = Math.floor(Math.random()* (newx - 130));
+    var y = Math.floor(Math.random() * (newy - 150));
     
     bojack_kid.setAttribute("style", "left: "+ x + "px; top: "+ y+ "px;");
     bojack_kid.setAttribute("onclick", "acertou(this)");
@@ -15,7 +15,7 @@ function bojack(){
     l++;
     if(l == 5){                
         stop();
-        if(newx > 768){
+        if(newx > 1024){
             document.getElementById("all_lost").style.display = "block";
             document.getElementById("image").style.display = "block";
             document.getElementById("image").style.backgroundImage = "url('images/you_lose.png')";
@@ -46,7 +46,7 @@ function stop(){
     clearTimeout(t);
     clearTimeout(t2);
 
-    if(newx > 768){
+    if(newx > 1024){
         document.getElementById("all_lost").style.display = "block";
         document.getElementById("image").style.display = "block";
         document.getElementById("image").style.backgroundImage = "url('images/you_win.png')";

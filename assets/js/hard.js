@@ -5,15 +5,15 @@ function bojack(){
     var newx = window.innerWidth;
     var newy = window.innerHeight;    
 
-    var x = Math.floor(Math.random()* (newx - 100));
-    var y = Math.floor(Math.random() * (newy - 120));
+    var x = Math.floor(Math.random()* (newx - 130));
+    var y = Math.floor(Math.random() * (newy - 150));
     
     bojack_adult.setAttribute("style", "left: "+ x + "px; top: "+ y+ "px;");
     bojack_adult.setAttribute("onclick", "acertou(this)");
     
     document.body.appendChild(bojack_adult);    
     l++;
-    if(l == 8){                
+    if(l == 5){                
         stop();
         if(newx > 768){
             document.getElementById("all_lost").style.display = "block";

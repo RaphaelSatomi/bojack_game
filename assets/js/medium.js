@@ -5,8 +5,8 @@ function bojack(){
     var newx = window.innerWidth;
     var newy = window.innerHeight;    
 
-    var x = Math.floor(Math.random()* (newx - 100));
-    var y = Math.floor(Math.random() * (newy - 120));
+    var x = Math.floor(Math.random()* (newx - 130));
+    var y = Math.floor(Math.random() * (newy - 150));
     
     bojack_young.setAttribute("style", "left: "+ x + "px; top: "+ y+ "px;");
     bojack_young.setAttribute("onclick", "acertou(this)");
