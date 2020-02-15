@@ -5,8 +5,7 @@ body{
     justify-content: center;
     background-image: url('../images/bojack_wallpaper.jpg');
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: cover;    
     height: 650px;
 }
 

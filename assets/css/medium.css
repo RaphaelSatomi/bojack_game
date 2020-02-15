@@ -5,8 +5,7 @@ body{
     justify-content: center;
     background-image: url('../images/medium_image.jpg');
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: cover;    
     height: 650px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -83,11 +82,11 @@ body{
 }
 
 #all_lost,
-#all_win,
 #image{
     display: none;
     z-index: 10;
 }
+
 #mobile_finish,
 #mobile_finish2{
     display: none;
@@ -107,7 +106,7 @@ body{
 */
 @media only screen and (min-width: 1440px) and (max-width: 2560px){
     body{
-        background-image: url('../images/medim_image2560.jpg'); 
+        background-image: url('../images/medium_image.jpg'); 
         height: 1440px;               
     }        
     .lost{
@@ -171,6 +170,9 @@ body{
     body{        
         height: 657px;            
     }
+    .lost{
+        height: 600px;
+    }        
 }
 
 

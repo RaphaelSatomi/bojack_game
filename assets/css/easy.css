@@ -159,6 +159,7 @@ body{
     .lost{
         height: 760px;
     }
+    
 }
 
 
@@ -170,6 +171,9 @@ body{
 @media only screen and (min-width: 1024px) and (max-width: 1366px){
     body{        
         height: 657px;            
+    }
+    .lost{
+        height: 600px;
     }
 }
 

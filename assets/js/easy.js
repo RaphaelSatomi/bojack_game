@@ -61,11 +61,20 @@ function stop(){
 var l = 0;
 var t;
 var t2;
+var o;
 var seconds = 30;
 var catch1 = 0;
 var newx = 0;
 var newy = 0;
-function start(){        
+function stop_start(){
+    clearTimeout(o);
+}
+function start(){
+    o = setInterval(start2, 1000);
+    setInterval(stop_start, 1000);
+}
+
+function start2(){        
     t = setInterval(bojack, 500);      
     t2 = setInterval(time, 1000);
     setInterval(stop, 30000);          
