@@ -65,7 +65,7 @@ var catch1 = 0;
 var newx = 0;
 var newy = 0;
 function start(){        
-    t = setInterval(bojack, 1000);      
+    t = setInterval(bojack, 300);      
     t2 = setInterval(time, 1000);
     setInterval(stop, 30000);          
 }
