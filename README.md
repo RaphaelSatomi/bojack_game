@@ -3,7 +3,7 @@
 **Version 1.0.0**
 
 Simple game with theme about bojack. I made this with the purpose to traine my skills in HTML, CSS and test new knowledge in javascript
-
+- This website is responsive
 ---
 # Explanation about the game
 
