@@ -1,6 +1,6 @@
 # Bojack Game
 
-<a href=“https://bojack-game.000webhostapp.com/index.html”>link game</a>
+[link game](https://bojack-game.000webhostapp.com/index.html)
 
 **Version 1.0.0**
 
